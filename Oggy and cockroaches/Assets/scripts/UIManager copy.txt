@@ -1,0 +1,149 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class UIManager : MonoBehaviour
+{
+    public static UIManager Instance { set; get; }
+
+    public GameObject GameOverMenu;
+    public GameObject PauseMenu;
+    private int levelValue;
+    public GameObject PauseBtn;
+    public GameObject ExitBtn;
+    public GameObject movementBtns;
+    public AudioSource backgroundAudio;
+    public AudioSource PauseBtnAudio;
+
+    private StoryTwoLevels storyTwoLevels;
+
+    public int currentLevel;
+
+    void Start()
+    {
+        Instance = this;
+        storyTwoLevels = StoryTwoLevels.Instance;
+        currentLevel = storyTwoLevels.currentLevel;
+    }
+
+    // private void Awake()
+    // {
+    //     StoryOneLevels storyOneLevels = FindObjectOfType<StoryOneLevels>();
+    //     levelValue = storyOneLevels.currentLevel;
+    //     Debug.Log("-----------------------------------"+ levelValue);
+    // }
+
+    // public float delay = 6;
+    // float timer;
+
+    void Update()
+    {
+        // timer += Time.deltaTime;
+        // if (timer > delay) {
+
+        // ShowPlayBtn();
+        // }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "ExitDoor")
+        {
+            ExitBtn.SetActive(true);
+        }
+    }
+
+    public void PlayGame()
+    {
+        // backgroundAudio.Play();
+        Time.timeScale = 1;
+        SceneManager.LoadScene(1);
+    }
+
+    // public void ShowPlayBtn()
+    // {
+    //     Time.timeScale = 1;
+    //     // GameOverMenu.SetActive(true);
+    //     PlayBtn.SetActive(true);
+    //     timer += Time.deltaTime;
+    //     if (timer > delay)
+    //     {
+    //         Loader.SetActive(false);
+    //     }
+
+    //     // backgroundAudio.Play();
+    //     // backgroundAudio.Pause();
+    //     // GameoverAudio.Play();
+    // }
+
+    public void Gameover()
+    {
+        Time.timeScale = 0;
+        GameOverMenu.SetActive(true);
+        PauseBtn.SetActive(false);
+        // Time.timeScale = 0;
+        movementBtns.SetActive(false);
+
+        backgroundAudio.Pause();
+        // GameoverAudio.Play();
+    }
+
+    public void GameEnd()
+    {
+        Time.timeScale = 1;
+        ExitBtn.SetActive(true);
+        // GameoverAudio.Play();
+    }
+
+    public void restartGame()//Play
+    {
+        ExitBtn.SetActive(false);
+        Time.timeScale = 1;
+        movementBtns.SetActive(true);
+        // currentLevel = storyTwoLevels.currentLevel;
+        PauseMenu.SetActive(false);
+        PauseBtn.SetActive(true);
+        backgroundAudio.Play();
+        SceneManager.LoadScene(currentLevel);
+        // GameoverAudio.Pause();
+    }
+
+    public void nextLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentLevel +1);
+        backgroundAudio.Play();
+        // GameoverAudio.Pause();
+        // PauseBtn.SetActive(true);
+    }
+      public void ResumeGame()
+    {
+        Time.timeScale = 1;
+        movementBtns.SetActive(true);
+        PauseMenu.SetActive(false);
+        PauseBtn.SetActive(true);
+    }
+
+    public void pauseGame()
+    {
+        Time.timeScale = 0;
+        PauseMenu.SetActive(true);
+        PauseBtn.SetActive(false);
+        movementBtns.SetActive(false);
+        PauseBtnAudio.Play();
+        backgroundAudio.Pause();
+    }
+
+  
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Menu2()
+    {
+        SceneManager.LoadScene(3);
+    }
+}

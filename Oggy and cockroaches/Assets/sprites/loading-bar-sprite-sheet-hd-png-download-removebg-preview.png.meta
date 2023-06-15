@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 23918a2c77252e1438d6887e000fa7fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1157181379706117885
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_0
+  - first:
+      213: -5799958575037282286
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_1
+  - first:
+      213: -8156574121812635575
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_2
+  - first:
+      213: 8044006276271850405
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_3
+  - first:
+      213: -1547289724146517874
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_4
+  - first:
+      213: 5348322594032793397
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_5
+  - first:
+      213: -2583516593630742516
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_6
+  - first:
+      213: -1513743544004408340
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_7
+  - first:
+      213: 3763111921064918850
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_8
+  - first:
+      213: 1450680390613891926
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_9
+  - first:
+      213: -6047715805689505599
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_10
+  - first:
+      213: 2432276231666871585
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_11
+  - first:
+      213: 2653306109988819551
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_12
+  - first:
+      213: 3082646881273865943
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_13
+  - first:
+      213: 4614845544956608030
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_14
+  - first:
+      213: 6565290816213995450
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_15
+  - first:
+      213: -8848928399806720443
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_16
+  - first:
+      213: 3151248942308258167
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_17
+  - first:
+      213: 982976076656298766
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_18
+  - first:
+      213: -3178815455068961390
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_19
+  - first:
+      213: 6179218200286079957
+    second: loading-bar-sprite-sheet-hd-png-download-removebg-preview_20
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 436
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe541675522f0010800000000000000
+      internalID: 1157181379706117885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 423
+        width: 97
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2180ceec768628fa0800000000000000
+      internalID: -5799958575037282286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 390
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940d6353d070ece80800000000000000
+      internalID: -8156574121812635575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 379
+        width: 106
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3423cd61d02af60800000000000000
+      internalID: 8044006276271850405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 344
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8872ab913ce68ae0800000000000000
+      internalID: -1547289724146517874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 116
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5373589001f093a40800000000000000
+      internalID: 5348322594032793397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 300
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ff4d9851852cd0800000000000000
+      internalID: -2583516593630742516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 290
+        width: 126
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb8392544a1efae0800000000000000
+      internalID: -1513743544004408340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 256
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fbc19ba52493430800000000000000
+      internalID: 3763111921064918850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 246
+        width: 135
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b7a25112ad12410800000000000000
+      internalID: 1450680390613891926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c89c535482321ca0800000000000000
+      internalID: -6047715805689505599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 201
+        width: 145
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d2120985e21c120800000000000000
+      internalID: 2432276231666871585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 167
+        width: 60
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52d14669df62d420800000000000000
+      internalID: 2653306109988819551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 157
+        width: 155
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d66b468103c7ca20800000000000000
+      internalID: 3082646881273865943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 122
+        width: 68
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ebe6892993b0040800000000000000
+      internalID: 4614845544956608030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 112
+        width: 165
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfc19386399c1b50800000000000000
+      internalID: 6565290816213995450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 78
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54697a6018a423580800000000000000
+      internalID: -8848928399806720443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 68
+        width: 174
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771fb1d873c7bbb20800000000000000
+      internalID: 3151248942308258167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 34
+        width: 89
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4ecf988b34ad00800000000000000
+      internalID: 982976076656298766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 184
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295c71a8f2492e3d0800000000000000
+      internalID: -3178815455068961390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-bar-sprite-sheet-hd-png-download-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 24
+        width: 187
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db2ea9d63ef0c550800000000000000
+      internalID: 6179218200286079957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
